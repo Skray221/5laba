@@ -1,0 +1,11 @@
+1. 
+   - Для элемента div: HTMLDivElement -> HTMLElement -> Element -> Node -> EventTarget -> Object
+
+2. 
+   - Для элемента input: HTMLInputElement -> HTMLElement -> Element -> Node -> EventTarget -> Object
+
+3. 
+   - Для каждого элемента div в коллекции: HTMLDivElement -> HTMLElement -> Element -> Node -> Object
+
+4. 
+   - Для каждого элемента p в коллекции: HTMLParagraphElement -> HTMLElement -> Element -> Node -> Object

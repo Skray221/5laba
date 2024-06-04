@@ -1,0 +1,39 @@
+1.
+Код:
+
+<div>text</div>
+let elem = document.querySelector('div');
+console.dir(elem);
+Этот код выбирает первый элемент div на странице. Результатом выполнения document.querySelector('div') будет объект, который принадлежит классу HTMLDivElement.
+
+2.
+Код:
+
+<input>
+let elem = document.querySelector('input');
+console.dir(elem);
+Здесь код выбирает элемент input. Результатом выполнения document.querySelector('input') будет объект, который принадлежит классу HTMLInputElement.
+
+3.
+Код:
+
+<div>text</div>
+<div>text</div>
+<div>text</div>
+let elems = document.querySelectorAll('div');
+console.dir(elems);
+В этом случае document.querySelectorAll('div') возвращает NodeList, содержащий все элементы div на странице. Объект NodeList не является массивом, но похож на массив и имеет методы для перебора элементов.
+
+4.
+Код:
+
+<div>
+	<p>text</p>
+	<p>text</p>
+	<p>text</p>
+</div>
+let elem = document.querySelector('div');
+let elems = elem.children;
+
+console.dir(elems);
+Здесь elem.children возвращает HTMLCollection, содержащую все дочерние элементы элемента div, в данном случае это элементы p. HTMLCollection похож на массив, но имеет свои особенности и методы для работы с элементами.
